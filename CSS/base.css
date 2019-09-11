@@ -164,13 +164,13 @@ h1, h2, h3, h4, h5, h6,
 
 /* link */
 a{
-  color: #484848;
+  color: #212529;
   text-decoration: none;
 }
 a:hover,
 a:active,
 a:focus{
-  color: #484848;
+  color: #212529;
   text-decoration: none;
 }
 /* list */
