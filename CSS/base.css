@@ -1,0 +1,282 @@
+/*
+ * You can say something about your file if you need it!
+ */
+/*-------------------------*/
+/* $Catalog 
+---------------------------*/
+/** 
+ * Catalog
+ * Font import
+ * Reset
+ * Color
+ * Typography
+ * Icons
+ * Utility
+**/
+
+
+/*-------------------------*/
+/* $Font import 
+---------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*-------------------------*/
+/* $Font import 
+---------------------------*/
+
+/* Add reset */
+*{
+  position: relative;
+  box-sizing: border-box;
+}
+
+/*-------------------------*/
+/* $Color 
+---------------------------*/
+/* background color */
+.bg-color-primary{background-color: #6487f5;}
+.bg-color-secondary{background-color: #ff638f;}
+.bg-color-black{background-color: #484848;}
+.bg-color-grey{background-color: #cbcbcb;}
+.bg-color-white{background-color: #fefefe;}
+
+/* text color */
+.color-primary{color: #6487f5;}
+.color-secondary{color: #ff638f;}
+.color-black{color: #484848;}
+.color-grey{color: #cbcbcb;}
+.color-white{color: #fefefe;}
+
+
+/*-------------------------*/
+/* $Typography 
+---------------------------*/
+/* Global */
+body,html{
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 800;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h2{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h3{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h4{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h5{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+h6{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1.1rem;
+}
+
+p{
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: 'roboto', 'Helvetica', arial, sans-serif;
+  line-height: 1.8em;
+  letter-spacing: 0;
+  margin-bottom: 16px;
+  color: #484848;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+/* link */
+a{
+  color: #212529;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus{
+  color: #212529;
+  text-decoration: none;
+}
+/* list */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------*/
+/* $Icons 
+---------------------------*/
+/* Google icon */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*-------------------------*/
+/* $Utility 
+---------------------------*/
+
+/* text modification */
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.font-weight-light {
+  font-weight: 300 !important;
+}
+.font-weight-lighter {
+  font-weight: lighter !important;
+}
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.font-weight-bolder {
+  font-weight: bolder !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+
+
+
+
+/**/
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.marginTop30{
+  margin-top: 30px;
+}
+.marginBottom30{
+  margin-bottom: 30px;
+}
+.paddingTop30{
+  padding-top: 30px;
+}
+.paddingBottom30{
+  padding-bottom: 30px;
+}
+
+.list-inline{
+  display: inline-block;
+  list-style: none;
+}
+
+.u-clearfix:before,
+.u-clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.u-clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+.u-push-right{float: right !important;}
+.u-push-left{float: left !important;}
+.u-text-center{text-align: center !important;}
+
+
+
+
+
