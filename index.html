@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Yan-Sheng's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/LOGO/favicon.png">
+	
+	<!-- Bootstrap CSS-->
+	<!-- <link rel="stylesheet" href="CSS/bootstrap.css"> -->
+	<link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="CSS/bootstrap-grid.css">
+	<!-- Font-awesome -->
+	<!-- <link rel="stylesheet" href="CSS/all.min.css"> -->
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="CSS/base.css">
+	<link rel="stylesheet" href="CSS/jquery.fancybox.css">
+	<link rel="stylesheet" href="CSS/component.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-spy">
+	<div class="main wrapper">
+
+		<!-- Start bg -->
+		<!-- End bg -->
+
+		<!-- Start header -->
+		<header>
+			<div class="container">
+				<!-- Collect the nav links -->
+				<div class="navbar navbar-collapse shadow-sm">
+					<!-- LOGO -->
+					<a href="index.html" class="navbar__logo"></a>
+					<!-- NAME -->
+					<!-- <a href="index.html" class="navbar-brand navbar__name">Yan-Sheng Kuo</a> -->
+					<a href="#overlay" class="menu-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					<div id="overlay" class="nav navbar__nav popup-nav">
+						<ul id="navbar-spy" class="nav nav__menu">
+  							<li class="nav-item"><a class="nav-link menu__item" href="#about"><span>ABOUT</span></a></li>
+  							<li class="nav-item"><a class="nav-link menu__item" href="#portfolio"><span>PORTFOLIO</span></a></li>
+  							<li class="nav-item"><a class="nav-link menu__item" href="#contact"><span>CONTACT</span></a></li>
+  							<li class="nav-item"><a class="nav-link menu__item color-primary" href="YanshengKuo_Resume.pdf" target="_blank"><span>RESUME</span></a></li>
+  						</ul>
+						<a href="#!" class="popup-close">
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+		
+		<!-- Start main -->
+		<section class="main">
+			<!-- Start about -->
+			<div id="about" class="about jumbotron bg-covered">
+				<div class="container col-sm-8 text-center">
+					<h2 class="">Yan-Sheng Kuo</h2>
+					<div class="about__description about__text">I am a Product Designer dedicated to making people’s life better.</div>
+					<a class="btn btn-primary btn-lg" href="about.html" role="button">More Infomation</a>
+				</div>
+			</div>
+			<!-- End about -->
+
+			<!-- Start portfolio -->
+			<div id="portfolio" class="portfolio">
+				<div class="container">
+					<h2 class="text-center text-uppercase">portfolio</h2>
+					<p class="project__subtitle text-center">Click an picture or title for quick access to the corresponding project.</p>
+					<div class="row marginBottom30">
+						<!-- Clothes Recycling -->
+						<div class="card col-lg-6">
+							<a href="clothes_recycling.html" class="portfolio-link">
+								<img src="images/project/clothes_recycling/thumbnail/clothes_recycling_thumbnail.png" class="card-img-top" alt="">
+								<div class="portfolio-hover">
+									<div class="portfolio-hover-content">
+										<h3 class="text-capitalize">Clothes Recycling</h3>
+										<p class="text-capitalize">UX Research / UX Design</p>
+									</div>
+								</div>
+							</a>
+							<a href="weddingcards.html" class="portfolio-link">
+								<div class="card-body text-center font-weight-bold">
+									<p>Wedding Cards</p>
+								</div>
+							</a>
+						</div>
+						<!-- Wedding Cards -->
+						<div class="card col-lg-6">
+							<a href="weddingcards.html" class="portfolio-link">
+								<img src="images/project/wedding_cards/thumbnail/SplatterPhotoEffect_thumbnail.jpg" class="card-img-top" alt="">
+								<div class="portfolio-hover">
+									<div class="portfolio-hover-content">
+										<h3 class="text-capitalize">Wedding Cards</h3>
+										<p class="text-capitalize">UX Research / Visiaul Design</p>
+									</div>
+								</div>
+							</a>
+							<a href="weddingcards.html" class="portfolio-link">
+								<div class="card-body text-center font-weight-bold">
+									<p>Wedding Cards</p>
+								</div>
+							</a>
+						</div>
+						
+					</div>
+					<div class="row">
+						<!-- Gymnasium Animals -->
+						<!-- <div class="card col-lg-6">
+							<a href="gymani.html" class="portfolio-link">
+								<img src="images/project/gym_animals/thumbnail/AnimalInGym2_thumbnail.jpg" class="card-img-top" alt="" width="500" height="350">
+								<div class="portfolio-hover">
+									<div class="portfolio-hover-content">
+										<h3 class="text-capitalize">Gymnasium Animals</h3>
+										<p class="text-capitalize">illustration</p>
+									</div>
+								</div>
+							</a>
+							<a href="gymani.html" class="portfolio-link">
+								<div class="card-body text-center font-weight-bold">
+									<p>Gymnasium Animals</p>
+								</div>
+							</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<!-- End portfolio -->
+
+			<!-- Start contact -->
+			<div id="contact" class="contact">
+				<div class="container">
+					<h2 class="text-center text-uppercase">contact</h2>
+					<p class="text-center">Please feel free to contact me</p>
+					<div class="row contact__row">
+						<div class="col-lg-4">
+							<div class="contact__item">
+								<div class="text-center">
+									<i class="material-icons md-48">person_pin</i>
+								</div>
+								<h6 class="text-center text-uppercase">location</h6>
+								<p class="text-center">Taipei</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<a href="tel:0973050112" class="contact__item">
+								<div class="text-center">
+									<i class="material-icons md-48">phone_in_talk</i>
+								</div>
+								<h6 class="text-center text-uppercase">Phone</h6>
+								<p class="text-center">(+886)973-050-112</p>
+							</a>
+						</div>
+						<div class="col-lg-4">
+							<a href="mailto:crowley3141@hotmail.com" class="contact__item">
+								<div class="text-center">
+									<i class="material-icons md-48">email</i>
+								</div>
+								<h6 class="text-center text-uppercase">Mail</h6>
+								<p class="text-center">crowley3141@hotmail.com</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End contact -->
+		</section>
+		<!-- End main -->
+		<!-- Start footer -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 social">
+							<ul class="list-line footer__icon-group">
+								<li>
+									<a href="http://www.linkedin.com/in/yanshengkuo" target="_blank" class="icon-btn">
+										<i class="icon icon-linkin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/arsene_alibi/" target="_blank" class="icon-btn">
+										<i class="icon icon-ig"></i>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:crowley3141@hotmail.com" class="icon-btn">
+										<i class="icon icon-mail"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UCNF2yMOSIcILpJAUNNKGM3w?view_as=subscriber" target="_blank" class="icon-btn">
+										<i class="icon icon-youtube"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="copyright text-center">Copyright @ Yan-Sheng Kuo 2019</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer -->
+	</div>
+
+	<!-- JS -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Fancybox -->
+	<script src="js/jquery-fancybox-1.4.3.min.js"></script>
+</body>
+</html>
